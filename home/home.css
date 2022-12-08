@@ -92,6 +92,8 @@ video {
     vertical-align: baseline;
 }
 
+
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -107,19 +109,27 @@ section {
     display: block;
 }
 
+
+
 body {
     line-height: 1;
 }
+
+
 
 ol,
 ul {
     list-style: none;
 }
 
+
+
 blockquote,
 q {
     quotes: none;
 }
+
+;
 
 blockquote:before,
 blockquote:after,
@@ -129,7 +139,27 @@ q:after {
     content: none;
 }
 
+;
+
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+;
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* VARIAVELS */
+:root {
+    --fundo: #99e2be;
+    --title: #132315;
+    --font-title: Montserrat;
+    --subtitle: #1A2D1D;
+};
+
+body {
+    background-color: black;
+    font-family: var(--font-title);
+    
+};
