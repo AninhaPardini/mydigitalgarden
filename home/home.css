@@ -84,15 +84,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
-
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -106,60 +104,51 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
-
-
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
-
-
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
-
-
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
-
-;
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
-
-;
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-;
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 /* VARIAVELS */
 :root {
-    --fundo: #99e2be;
-    --title: #132315;
-    --font-title: Montserrat;
-    --subtitle: #1A2D1D;
-};
+  --fundo: #99e2be;
+  --title: #132315;
+  --font-title: ;
+  --font-all: Montserrat;
+  --subtitle: #1a2d1d;
+}
 
 body {
-    background-color: black;
-    font-family: var(--font-title);
-    
-};
+  background-color: #c3f5d9;
+  font-family: var(--font-all);
+}
