@@ -1,0 +1,19 @@
+{
+  "name": "my-digital-garden",
+  "version": "1.0.0",
+  "description": "A website where I publish my programming studies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AninhaPardini/mydigitalgarden.git"
+  },
+  "author": "Aninha Pardini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AninhaPardini/mydigitalgarden/issues"
+  },
+  "homepage": "https://github.com/AninhaPardini/mydigitalgarden#readme"
+}
