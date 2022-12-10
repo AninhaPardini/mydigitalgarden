@@ -42,13 +42,20 @@ body {
     "header"
     "aboutme"
     ;
-  grid-gap: 0 2rem;
+  grid-gap: 6rem 2rem;
   align-items: center;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows: 50vh;
+  grid-template-rows: 50vh 30vh;
   justify-content: center;
+  height: calc(100vh - 50px);
   
   
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .header {
@@ -65,10 +72,9 @@ body {
   justify-content: center;
   grid-area: aboutme;
   background-color: var(--contrast);
-  background-size: auto;
   padding: 10px;
   width: 390px;
-  height: 420px;
+  height: 435px;
   border-radius: 30px;
   
 }

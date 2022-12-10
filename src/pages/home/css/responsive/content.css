@@ -1,0 +1,29 @@
+@media screen and (max-width: 760px) {
+    :root {
+            --background: #e1faed;
+            --contrast: #b4fcd6;
+            --contrast2: #92ddb5;
+            --font-all: 'Montserrat', sans-serif;
+            /* Header */
+            --title: #585858;
+            --font-title: 'DM Serif Display', serif;
+            --subtitle: #1a2d1d;
+            /* about me */
+            --fontsize-aboutme: 35px;
+            /* others */
+    
+        }
+    
+    main {
+        background-color: var(--contrast2);
+    }
+    
+    #postsnumber {
+        display: flex;
+        
+    }
+
+    #iconposts {
+        width: 25px;
+    }
+}

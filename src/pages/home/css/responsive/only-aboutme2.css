@@ -1,0 +1,79 @@
+@media (max-width: 760px) and (min-width: 744px) {
+    .all-home {
+        font-family: var(--font-all);
+        color: var(--title);
+        margin: 2rem;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+        
+    .home-header {
+        display: grid;
+        grid-template-areas:
+            "header"
+            "aboutme"
+        ;
+        grid-gap: 1rem;
+        align-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.5fr;
+        justify-content: center;
+        max-height: 43.6vh;
+        margin-bottom: 50px;
+        
+    }
+        
+    .header {
+        justify-items: center;
+        justify-content: center;
+        grid-area: header;
+        border-left: #585858 solid;
+        padding-left: 10px;
+    }
+        
+    .aboutme {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        grid-area: aboutme;
+        background-color: var(--contrast);
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 80%;
+        border-radius: 30px;
+        text-align: left;
+    }
+    h1 {
+        font-size: 8vh;
+        font-family: var(--font-title);
+        margin-bottom: 7px;
+    }
+    
+    .texts-aboutme {
+        margin-left: 15px;
+    }
+
+    #title-aboutme {
+        font-size: 2rem;
+        font-family: var(--font-title);
+        margin: 0.5rem 0;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    
+    #text-aboutme {
+        font-family: 'Montserrat', sans-serif;
+        font-style: italic;
+    }
+    
+    #photo {
+        width: 30%;
+        border-radius: 50px;
+    
+    }
+}
